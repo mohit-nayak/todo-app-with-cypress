@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "cypress:open": "cypress open",
+    "ts-lint": "tsc --noEmit --incremental --watch"
   },
   "dependencies": {
     "@types/node": "20.4.9",
@@ -19,7 +21,12 @@
     "postcss": "8.4.27",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-icons": "^4.10.1",
     "tailwindcss": "3.3.3",
     "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "cypress": "^12.17.3",
+    "ts-node": "^10.9.1"
   }
 }
